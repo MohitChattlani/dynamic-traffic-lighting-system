@@ -30,8 +30,8 @@ app.controller('myCtrl', function($scope, $http) {
       }).then(function mySuccess(response) {
           console.log(response.data.incidents);
           data1=response.data.incidents;
-          for (var i = 0; i<=data1.length-1; i++) {
-            if (data1[i].impacting===false) {
+          for (var i = data1.length-1; i>0; i--) {
+            if (data1[i].impacting===true) {
               console.log(data1[i]);
               console.log(i);
               break;
@@ -48,8 +48,8 @@ app.controller('myCtrl', function($scope, $http) {
           }).then(function mySuccess(response) {
               console.log(response.data.incidents);
               data2=response.data.incidents;
-              for (var i = 0; i<=data2.length-1; i++) {
-                if (data2[i].impacting===false) {
+              for (var i = data2.length-1; i>0; i--) {
+                if (data2[i].impacting===true) {
                   console.log(data2[i]);
                   console.log(i);
                   break;
