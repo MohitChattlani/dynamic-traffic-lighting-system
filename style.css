@@ -1,17 +1,20 @@
-/* ngIf animation */
-.ifJsAnimation.ng-enter,
-.ifJsAnimation.ng-leave {
-  -webkit-transition: opacity ease-in-out 1s;
-  -moz-transition: opacity ease-in-out 1s;
-  -ms-transition: opacity ease-in-out 1s;
-  -o-transition: opacity ease-in-out 1s;
-  transition: opacity ease-in-out 1s;
-}
-.ifJsAnimation.ng-enter,
-.ifJsAnimation.ng-leave.ng-leave-active {
+.fade-element-in.ng-enter {
+  transition: 0.8s linear all;
   opacity: 0;
 }
-.ifJsAnimation.ng-leave,
-.ifJsAnimation.ng-enter.ng-enter-active {
+
+.fade-element-in-init .fade-element-in.ng-enter {
   opacity: 1;
+}
+
+.fade-element-in.ng-enter.ng-enter-active {
+  opacity: 1;
+}
+
+.fade-element-in.ng-leave {
+  transition: 0.3s linear all;
+  opacity: 1;
+}
+.fade-element-in.ng-leave.ng-leave-active {
+  opacity: 0;
 }
