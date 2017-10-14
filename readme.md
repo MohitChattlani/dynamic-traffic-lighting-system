@@ -2,11 +2,11 @@
 
 A dynamic traffic lighting system based on amount of traffic in roads.
 
-##Problem
+## Problem
 
 Currently, Traffic light system is automated i.e traffic signals change after a fixed interval of time due to which congestion of vehicles increases on the roads.
 
-##Idea
+## Idea
 
 The idea of the project is to dynamically automate the traffic light system based on the amount of traffic on both sides of the road.
 
@@ -15,7 +15,7 @@ The idea of the project is to dynamically automate the traffic light system base
 * CSS
 * AngularJS
 
-##How to run?
+## How to run?
 
 Instructions to create a localhost server to run an AngularJS project
 
