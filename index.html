@@ -9,14 +9,14 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
 
 <script src="app.js"></script>
-<body ng-app="myApp">
+<body ng-app="myApp" >
 
 <div ng-controller="myCtrl" class="container">
     <form ng-submit="submitted()">
-      <div  style="text-align:center">
+      <div style="text-align:center">
         <h2>Road 1</h2>
       </div>
-      <div class="form-group">
+      <div class="road1 form-group">
         <div class="col-md-6">
           <label>Latitude 1</label>
           <input class="form-control" type="number" step="0.01" ng-model="lat1"/>
@@ -36,7 +36,7 @@
           <input class="form-control" type="number" step="0.01" ng-model="lon2"/>
         </div>
       </div>
-      <div  style="text-align:center;">
+      <div class="road2" style="text-align:center;">
         <h2 style=" margin-top: 15rem;">Road 2</h2>
       </div>
       <div class="form-group">
