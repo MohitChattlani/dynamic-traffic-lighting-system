@@ -1,31 +1,16 @@
 *{
-<<<<<<< HEAD
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-html{
-  font-size: 62.5%;
-}
-
-=======
- padding: 0;
- margin: 0;
- box-sizing: border-box;
-}
 html
 {
- font-size: 62.5%;
+  font-size: 62.5%;
 }
->>>>>>> 54e50f64aa3d0bf462a98b89053fce30852a176e
 body{
-  background: #f9f9f9;
   color: #555555;
   font-family: Helvetica,Arial,sans-serif;
-<<<<<<< HEAD
-  font-size: 1.6em;
-=======
+  background: #f2f2f2;
   font-size: 1.6rem;
->>>>>>> 54e50f64aa3d0bf462a98b89053fce30852a176e
 }
