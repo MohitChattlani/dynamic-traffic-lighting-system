@@ -1,4 +1,5 @@
 /* ngIf animation */
+
 .ifJsAnimation.ng-enter,
 .ifJsAnimation.ng-leave {
   -webkit-transition: opacity ease-in-out 1s;
