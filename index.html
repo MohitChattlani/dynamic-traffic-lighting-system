@@ -11,7 +11,10 @@
 <script src="app.js"></script>
 <body ng-app="myApp" >
 
-<div ng-controller="myCtrl" class="container">
+  <header>
+     <h1>Dynamic Traffic Lighting System</h1>
+  </header>
+  <div ng-controller="myCtrl" class="container">
     <form ng-submit="submitted()">
       <div style="text-align:center">
         <h2>Road 1</h2>
@@ -68,7 +71,8 @@
       <h3>Green signal time for road 1 as per calculation {{timeX}}</h3>
       <h3>Green signal time for road 2 as per calculation {{timeY}}</h3>
     </div>
-</div>
+  </div>
+  <footer>Link to <a style="color:#C5CAE9" href="https://github.com/MohitChattlani/traffic-management">Repository</a></footer>
 
 </body>
 </html>

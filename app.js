@@ -1,4 +1,4 @@
-var app = angular.module('myApp', []);
+var app = angular.module('myApp', ['ngAnimate']);
 app.controller('myCtrl', function($scope, $http) {
     $scope.lat1= 39.95;
     $scope.lon1= -105.25;
